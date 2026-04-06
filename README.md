@@ -1,31 +1,46 @@
-# SortGame
+# Python Sorting Game
 
-SortGame est un jeu de réflexion où le but est de trier des éléments selon des règles spécifiques. Ce projet a été conçu pour améliorer la logique, la gestion d'états et l'expérience utilisateur.
+Un jeu visuel de tri d'algorithmes développé en Python avec Tkinter.
 
-## Fonctionnalités
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-- Interface utilisateur intuitive
-- Plusieurs niveaux de difficulté
-- Système de score
-- Sauvegarde de la progression
+## 🎮 Fonctionnalités
 
-## Installation
+- Visualisation en temps réel des algorithmes de tri
+- Interface graphique intuitive
+- Plusieurs algorithmes de tri disponibles
+- Mode interactif pour apprendre le fonctionnement des tris
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/votre-utilisateur/sortgame.git
-cd sortgame
-npm install
-npm start
+# Cloner le repository
+git clone https://github.com/anaskiouaz/python-sorting-game.git
+
+# Aller dans le répertoire
+cd python-sorting-game
+
+# Lancer le jeu (interface graphique)
+python main.py
+
+# Pour le mode texte
+python interface_textuelle_bs.py
 ```
 
-## Utilisation
+## 🎯 Algorithmes de tri disponibles
 
-Lancez le jeu avec `npm start` puis suivez les instructions à l'écran pour commencer à jouer.
+- Tri à bulles (Bubble Sort)
+- Tri par insertion
+- Tri rapide (Quick Sort)
+- Tri fusion (Merge Sort)
 
-## Contribution
+## 🛠️ Prérequis
 
-Les contributions sont les bienvenues ! Ouvrez une issue ou une pull request pour proposer des améliorations.
+- Python 3.7+
+- Tkinter (inclus avec Python)
 
-## Licence
+Aucune dépendance externe requise !
 
-Ce projet est sous licence MIT.
+## 📝 Licence
+
+MIT License
